@@ -1,0 +1,36 @@
+*{
+    background-color: #3b3b3b
+}
+
+h1, h2{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-attachment: fixed;
+    background-color: 3b3b3b;
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
+
+@media (max-width: 800px) {
+    .books {
+        flex-direction: column;
+    }
+}
