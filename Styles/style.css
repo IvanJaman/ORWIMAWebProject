@@ -42,7 +42,7 @@ a:hover{
     justify-content: space-evenly;
 } 
 
-.details{
+.details, .about{
     margin: 20px;
     display: flex;
     flex-direction: row;
@@ -50,10 +50,11 @@ a:hover{
     justify-content: space-evenly;
 }
 
-.description{
+.description, .biography{
     margin: 20px;
     width: 800px;
     text-align: justify;
+    font-size: large;
 }
 
 @media (max-width: 800px) {
