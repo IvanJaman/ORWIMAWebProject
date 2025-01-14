@@ -42,7 +42,7 @@ a:hover{
     justify-content: space-evenly;
 } 
 
-.details, .about{
+.details, .about, .movie{
     margin: 20px;
     display: flex;
     flex-direction: row;
@@ -50,7 +50,14 @@ a:hover{
     justify-content: space-evenly;
 }
 
-.description, .biography{
+.movies{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description, .biography, .description2{
     margin: 20px;
     width: 800px;
     text-align: justify;
